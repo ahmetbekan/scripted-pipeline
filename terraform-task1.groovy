@@ -18,14 +18,6 @@ node{
                     """
                 }
             
-         
-                stage("Terraform Destroy"){
-                    sh """
-                        terraform destroy -auto-approve
-                    """
-                }
-            
-               
         }        
     }
 }
